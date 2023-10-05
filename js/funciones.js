@@ -51,7 +51,7 @@ $(document).ready(function() {
         caja = $("<input></input>");
         $(caja).attr("type", "number");
         $(caja).attr("placeholder","Subtotal del Producto");
-        $(caja).attr("readonly", "readonly");
+        $(caja).attr("readonly", "readonly"); 
         $(caja).attr("id", "subtotal"+contadorFilas);
         $(celda).append(caja);
         $(fila).append(celda);
